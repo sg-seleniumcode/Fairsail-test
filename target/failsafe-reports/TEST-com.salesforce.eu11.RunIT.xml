@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.salesforce.eu11.RunIT" time="5.13" tests="53" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/keerthiroopa/projects/tests/salesforce"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/keerthiroopa/projects/tests/salesforce"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/jv/xzthwt3s1z15g7wb6tk25lsh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/keerthiroopa/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/keerthiroopa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/keerthiroopa"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="keerthiroopa"/>
+    <property name="java.class.path" value="/Users/keerthiroopa/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean integration-test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/Users/keerthiroopa/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/keerthiroopa/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Given I am on Salesforce login page" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.016"/>
+  <testcase name="When I enter valid &quot;trial7382@trial.fairsail.com&quot; and password &quot;fairsail01&quot;" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then I see Salesforce homepage" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I navigate to Workforce eXperience tab" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I create new personal objective" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then I see New Objective view" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I enter the Description details: Objective Name &quot;test obj 02&quot; and Description &quot;test desc&quot; and  Measure &quot;test measure&quot;" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.001"/>
+  <testcase name="And I select Contribution to business details: Strategic Goal &quot;FINANCIAL&quot; and Contributes To &quot;&quot;" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Key dates details: Start Date &quot;20/02/2016&quot; End Date &quot;19/02/2017&quot; Next Review Date &quot;10/02/2018&quot;" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I enter Attributes: Weight &quot;10&quot; and Priority &quot;HIGH&quot; and select Required For Bonus &quot;YES&quot;" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Visibility: Is Private &quot;YES&quot;" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I click the Save button" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then Check record created for valid details &quot;test obj 02&quot;" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" classname="| test obj 02 | test desc | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="3.271"/>
+  <testcase name="Given I am on Salesforce login page" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.001"/>
+  <testcase name="When I enter valid &quot;trial7382@trial.fairsail.com&quot; and password &quot;fairsail01&quot;" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then I see Salesforce homepage" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I navigate to Workforce eXperience tab" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I create new personal objective" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then I see New Objective view" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I enter the Description details: Objective Name &quot;&quot; and Description &quot;obj name missing&quot; and  Measure &quot;test measure&quot;" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Contribution to business details: Strategic Goal &quot;FINANCIAL&quot; and Contributes To &quot;&quot;" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Key dates details: Start Date &quot;20/02/2016&quot; End Date &quot;19/02/2017&quot; Next Review Date &quot;10/02/2018&quot;" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I enter Attributes: Weight &quot;10&quot; and Priority &quot;HIGH&quot; and select Required For Bonus &quot;YES&quot;" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Visibility: Is Private &quot;YES&quot;" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then Save button is not enabled" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" classname="|  | obj name missing | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.746"/>
+  <testcase name="Given I am on Salesforce login page" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I enter valid &quot;trial7382@trial.fairsail.com&quot; and password &quot;fairsail01&quot;" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then I see Salesforce homepage" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I navigate to Workforce eXperience tab" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.001"/>
+  <testcase name="And I create new personal objective" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.001"/>
+  <testcase name="Then I see New Objective view" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I enter the Description details: Objective Name &quot;Obj description missing&quot; and Description &quot;&quot; and  Measure &quot;test measure&quot;" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Contribution to business details: Strategic Goal &quot;FINANCIAL&quot; and Contributes To &quot;&quot;" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Key dates details: Start Date &quot;20/02/2016&quot; End Date &quot;19/02/2017&quot; Next Review Date &quot;10/02/2018&quot;" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I enter Attributes: Weight &quot;10&quot; and Priority &quot;HIGH&quot; and select Required For Bonus &quot;YES&quot;" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Visibility: Is Private &quot;YES&quot;" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.001"/>
+  <testcase name="Then Save button is not enabled" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" classname="| Obj description missing |  | test measure | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.447"/>
+  <testcase name="Given I am on Salesforce login page" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I enter valid &quot;trial7382@trial.fairsail.com&quot; and password &quot;fairsail01&quot;" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then I see Salesforce homepage" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I navigate to Workforce eXperience tab" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I create new personal objective" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then I see New Objective view" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="When I enter the Description details: Objective Name &quot;measure missing&quot; and Description &quot;obj name missing&quot; and  Measure &quot;&quot;" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Contribution to business details: Strategic Goal &quot;FINANCIAL&quot; and Contributes To &quot;&quot;" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Key dates details: Start Date &quot;20/02/2016&quot; End Date &quot;19/02/2017&quot; Next Review Date &quot;10/02/2018&quot;" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I enter Attributes: Weight &quot;10&quot; and Priority &quot;HIGH&quot; and select Required For Bonus &quot;YES&quot;" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="And I select Visibility: Is Private &quot;YES&quot;" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="Then Save button is not enabled" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0"/>
+  <testcase name="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" classname="| measure missing | obj name missing |  | FINANCIAL |  | 20/02/2016 | 19/02/2017 | 10/02/2018 | 10 | HIGH | YES | YES |" time="0.645"/>
+</testsuite>
